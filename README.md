@@ -28,5 +28,6 @@ git clone https://github.com/leonardo_Wer/Diskretka.git
 ```
 
 2. Запуск программы
-> - В папке `tm-ba` 1-ое задание
-> - В папке `combinatorics-th` 2-ое задание
+Чтобы запустить программу, следуёте инструкции в `README.md` в папке с заданием:
+- В папке `tm-ba` 1-ое задание
+- В папке `combinatorics-th` 2-ое задание
