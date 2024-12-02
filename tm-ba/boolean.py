@@ -9,7 +9,7 @@ class GenerateBoolean:
      Булеан - множество всех подмножеств
     """
 
-    def __init__(self, plenty:set):
+    def __init__(self, plenty):
         self.plenty = list(plenty)
         self.capacity = len(plenty)
 
@@ -43,6 +43,6 @@ class GenerateBoolean:
 
 
 if __name__ == "__main__":
-    plenty = {1, 2, 3, 45}
+    plenty = {1, 2, 3}
     boolean = GenerateBoolean(plenty)
     print(boolean)

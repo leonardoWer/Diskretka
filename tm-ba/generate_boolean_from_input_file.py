@@ -3,13 +3,15 @@
 from boolean import GenerateBoolean
 
 
-def utils() -> set:
+def utils() -> list:
     """Считывает данные из файла input.txt в множество"""
-    plenty = set()
+    plenty = []
 
     with open("input.txt", "r") as file:
         for s in file:
-            plenty.add(s.strip())
+            element = s.strip()
+            if element not in plenty:
+                plenty.append(element)
 
     return plenty
 
